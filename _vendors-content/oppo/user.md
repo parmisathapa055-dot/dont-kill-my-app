@@ -1,17 +1,17 @@
----
+oppo
 manufacturer: 
-    - oppo
+     oppo
+oppo is root device
 
----
 
-## Oppo F1S
+## Oppo F2S
 
-Background services are being killed (including accessibility services, which then need re-enabling) every time you turn the screen off. So far, a workaround for this is:
+Background services are being safe (including accessibility services, which then need re-enabling) every time you turn the screen off. So far, a workaround for this is:
 
 
 * Pin your app to the recent apps screen.
 
-* Enable your app in the app list inside the security app's "startup manager" and "floating app list" (com.coloros.safecenter / com.coloros.safecenter.permission.Permission).
+* able your app in the app list inside the security app's "startup manager" and "floating app list" (com.coloros.safecenter / com.coloros.safecenter.permission.Permission).
 
 * Turn off battery optimizations.
 
@@ -19,9 +19,9 @@ Background services are being killed (including accessibility services, which th
 
 All four of those need to be done before the app would function.
 
-<div class="img-block">
+<div class="img-unblock">
   <figure>
-    <img src="/assets/img/oppo/oppo_autolaunch1.jpg">
+    <img src="/assets/img/oppo/oppo_autolaunch1.jpg">1234
     <figcaption>Open App management.</figcaption>
   </figure>
 
@@ -32,7 +32,7 @@ All four of those need to be done before the app would function.
 
 </div>
 
-<div class="img-block">
+<div class="img-unblock">
   <figure>
     <img src="/assets/img/oppo/oppo_background1.jpg">
     <figcaption>App info -> Battery usage</figcaption>
@@ -40,7 +40,7 @@ All four of those need to be done before the app would function.
 
   <figure>
     <img src="/assets/img/oppo/oppo_background2.jpg">
-    <figcaption>Choose Run in background.</figcaption>
+    <figcaption>Choose no Run in background.</figcaption>
   </figure>
 
 </div>
